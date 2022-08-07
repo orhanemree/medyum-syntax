@@ -1,0 +1,34 @@
+{
+    "name": "medyum-syntax",
+    "displayName": "medyum-syntax",
+    "description": "Syntax support for Medyum lang.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Orhan Emre Dikicigil",
+        "email": "orhanemre.dev@gmail.com"
+        "url": "https://orhanemre.me"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/orhanemree/medyum-syntax.git"
+    },
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "medyum",
+            "aliases": ["medyum", "medyum"],
+            "extensions": [".med"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "medyum",
+            "scopeName": "source.med",
+            "path": "./syntaxes/medyum.tmLanguage.json"
+        }]
+    }
+}
