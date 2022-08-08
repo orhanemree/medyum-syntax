@@ -2,7 +2,7 @@
 	"name": "medyum-syntax",
 	"displayName": "medyum-syntax",
 	"description": "Syntax support for Medyum lang.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": {
 		"name": "Orhan Emre Dikicigil",
 		"email": "orhanemre.dev@gmail.com",

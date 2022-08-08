@@ -10,7 +10,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.medyum",
-				"match": "\\b(ise|değilse|iken|yap|bitir)\\b"
+				"match": "\\b(ise|değilse|eşleştir|ile|iken|yap|bitir)\\b"
 			}]
 		}
 	},
